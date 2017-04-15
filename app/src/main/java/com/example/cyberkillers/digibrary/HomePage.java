@@ -19,6 +19,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -36,6 +37,7 @@ public class HomePage extends Activity {
 
         editsearch = (EditText)findViewById(R.id.editText1);
         listView = (ListView)findViewById(R.id.listView1);
+        Button recommend_button = (Button) findViewById(R.id.recommend_button);
 
         mItems = new ArrayList<String>();
         mItems.add("Diary of a Wimpy Kid 6: Cabin Fever");
@@ -75,6 +77,14 @@ public class HomePage extends Activity {
             }
 
 
+        });
+        recommend_button.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+                Intent numbersIntent = new Intent(HomePage.this,Recommendations.class);
+                startActivity(numbersIntent);
+            }
         });
 
 

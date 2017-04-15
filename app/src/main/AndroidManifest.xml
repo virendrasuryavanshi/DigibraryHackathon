@@ -30,9 +30,9 @@
             </intent-filter>
         </activity>
         <!-- Till Now-Vishal -->
-        <activity android:name=".HomePage"></activity>
-        <activity android:name=".Sub_Activity"></activity>
-
+        <activity android:name=".HomePage" />
+        <activity android:name=".Sub_Activity" />
+        <activity android:name=".Recommendations"></activity>
     </application>
 
 </manifest>
