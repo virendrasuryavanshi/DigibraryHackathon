@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class Sub_Activity extends Activity{
 
     TextView tv;
-
+//62626
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
