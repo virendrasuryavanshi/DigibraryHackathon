@@ -40,11 +40,11 @@ public class StudentInfo extends AppCompatActivity {
                         et_Hobby.getText().toString(),
                         et_Skills.getText().toString());
                 if(isInserted==true) {
-                    Toast.makeText(StudentInfo.this, "Data Inserted", Toast.LENGTH_LONG).show();
+                    Toast.makeText(StudentInfo.this, "Data Inserted!", Toast.LENGTH_LONG).show();
                     startActivity(new Intent(getApplicationContext(),HomePage.class));
                 }
                 else
-                    Toast.makeText(StudentInfo.this,"Data Not Inserted",Toast.LENGTH_LONG).show();
+                    Toast.makeText(StudentInfo.this,"Data Not Inserted!",Toast.LENGTH_LONG).show();
             }
         });
     }
