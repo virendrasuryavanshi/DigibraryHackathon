@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Digibrary.iml" filepath="$PROJECT_DIR$/Digibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DigibraryHackathon.iml" filepath="$PROJECT_DIR$/DigibraryHackathon.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
