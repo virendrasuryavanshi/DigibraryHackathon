@@ -77,7 +77,7 @@
                 android:inputType="textPersonName"
                 android:text=""
                 android:ems="10"
-                android:id="@+id/et_semester"
+                android:id="@+id/et_sem"
                 android:layout_weight="1" />
 
         </LinearLayout>
