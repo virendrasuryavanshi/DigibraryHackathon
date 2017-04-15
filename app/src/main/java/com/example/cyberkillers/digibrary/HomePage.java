@@ -71,7 +71,7 @@ public class HomePage extends Activity {
                 intent.putExtra("thanhcs",mItems.get(position));
                 startActivity(intent); //when you click,
 
-                //open new activity and intent text
+                //open new activity and intent text this is it
             }
 
 
