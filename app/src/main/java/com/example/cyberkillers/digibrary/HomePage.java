@@ -82,8 +82,7 @@ public class HomePage extends Activity {
 
             @Override
             public void onClick(View view){
-                Intent numbersIntent = new Intent(HomePage.this,Recommendations.class);
-                startActivity(numbersIntent);
+               startActivity(new Intent(getApplicationContext(),Recommendations.class));
             }
         });
 

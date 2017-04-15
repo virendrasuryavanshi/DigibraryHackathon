@@ -36,6 +36,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Sub_Activity"></activity>
+        <activity android:name="com.example.cyberkillers.digibrary.Recommendations">
+            <intent-filter>
+                <action android:name="com.example.cyberkillers.digibrary.Recommendations" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
     </application>
 
