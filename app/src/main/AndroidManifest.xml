@@ -13,6 +13,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <!-- ActivityStudentInfo-Vishal -->
         <activity android:name=".StudentInfo">
             <intent-filter>
@@ -21,7 +22,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".StartLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +30,9 @@
             </intent-filter>
         </activity>
         <!-- Till Now-Vishal -->
+        <activity android:name=".HomePage"></activity>
+        <activity android:name=".Sub_Activity"></activity>
+
     </application>
 
 </manifest>
