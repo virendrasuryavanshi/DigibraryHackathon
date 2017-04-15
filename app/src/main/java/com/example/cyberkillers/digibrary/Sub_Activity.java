@@ -3,12 +3,11 @@ package com.example.cyberkillers.digibrary;
 /**
  * Created by priyanshu on 15/4/17.
  */
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-
-//import com.example.androidtest1.*;
 public class Sub_Activity extends Activity{
 
     TextView tv;

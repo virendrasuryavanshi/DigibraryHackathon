@@ -31,6 +31,8 @@
         </activity>
         <!-- Till Now-Vishal -->
         <activity android:name=".HomePage"></activity>
+        <activity android:name=".Sub_Activity"></activity>
+
     </application>
 
 </manifest>
